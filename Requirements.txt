@@ -1,0 +1,9 @@
+Django==2.0
+django_heroku
+cloudinary
+requests
+pillow
+
+
+
+

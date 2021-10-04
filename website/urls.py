@@ -1,0 +1,1 @@
+from django.urls import pathfrom django.conf.urls import urlfrom . import viewsfrom django.contrib.auth.decorators import login_required, permission_requiredfrom website.views import (    APIView,)app_name = "website"urlpatterns =[    path('', APIView.as_view(template_name="index.html"), name='convert'),    ]
